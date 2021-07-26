@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+}
+.ul-tile {
+  margin-top: 150px;
+  list-style-type: none;
+}
+
+.link-tile {
+  display: inline-block;
+  position: relative;
+  width: 190px;
+  height: 200px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  z-index: 0;
+  transition: all 0.12s ease-in-out;
+  margin: 12px;
+  padding: 5px;
+}
+
+.link-tile:hover {
+  z-index: 100;
+  transform: scale(1.2, 1.2);
+  box-shadow: 0px 0px 10px 1px #3483fa;
+}
+
+.feed-tile {
+  background: url(../images/rss-feed.png) no-repeat center;
+  background-size: 40px;
+  width: 120px;
+  height: 90px;
+}
+
+.new-tile {
+  background: url(../images/new-document.png) no-repeat center;
+  background-size: 40px;
+  width: 120px;
+  height: 90px;
+}
